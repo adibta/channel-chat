@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "278752394110",
+    "firebase_url": "https://channels-chat-c90bb.firebaseio.com",
+    "project_id": "channels-chat-c90bb",
+    "storage_bucket": "channels-chat-c90bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278752394110:android:bb5074680ebae47b",
+        "android_client_info": {
+          "package_name": "com.adibta.channel_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278752394110-o0a9ai5cq7olbv3ig6qbjpvb2rpfjkhh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adibta.channel_chat",
+            "certificate_hash": "bcddd501be1c32198e485f038fecb3d910fb4aae"
+          }
+        },
+        {
+          "client_id": "278752394110-ie87qj7c9bvbv641molst2ias5o70b7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuPn16CGpQZ89cN38u6a_l9g7ZBBqp7l0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278752394110-ie87qj7c9bvbv641molst2ias5o70b7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

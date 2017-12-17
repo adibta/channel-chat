@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.adibta.channel_chat"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        resConfigs "auto"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    final ANDROID_SUPPORT_VERSION = '27.0.2'
+    final FIREBASE_VERSION = '11.6.2'
+    final FIREBASE_UI_VERSION = '3.1.1'
+    //Android Support
+    implementation "com.android.support:appcompat-v7:$ANDROID_SUPPORT_VERSION"
+    implementation "com.android.support:design:$ANDROID_SUPPORT_VERSION"
+    implementation "com.android.support.constraint:constraint-layout:1.1.0-beta4"
+    //Firebase
+    implementation "com.google.firebase:firebase-core:$FIREBASE_VERSION"
+    implementation "com.google.firebase:firebase-database:$FIREBASE_VERSION"
+    implementation "com.google.firebase:firebase-firestore:$FIREBASE_VERSION"
+    implementation "com.google.firebase:firebase-storage:$FIREBASE_VERSION"
+    implementation "com.google.firebase:firebase-auth:$FIREBASE_VERSION"
+    implementation "com.google.firebase:firebase-messaging:$FIREBASE_VERSION"
+    //Firebase UI
+    implementation "com.firebaseui:firebase-ui-database:$FIREBASE_UI_VERSION"
+    implementation "com.firebaseui:firebase-ui-firestore:$FIREBASE_UI_VERSION"
+    implementation "com.firebaseui:firebase-ui-auth:$FIREBASE_UI_VERSION"
+    implementation "com.firebaseui:firebase-ui-storage:$FIREBASE_UI_VERSION"
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.4.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.4.0'
+    //Butterknife
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    //Etc
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'com.android.support.test.espresso:espresso-core:3.0.2-alpha1'
+    testImplementation 'com.android.support.test:runner:1.0.2-alpha1'
+}
+apply plugin: 'com.google.gms.google-services'
