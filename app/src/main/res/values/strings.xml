@@ -6,4 +6,6 @@
     <string name="join_community">Join Community</string>
     <string name="your_community">Your Community</string>
     <string name="edit_profile">Edit Profile</string>
+    <string name="invitation_headline">Enter Invitation Link</string>
+    <string name="submit">Submit</string>
 </resources>
